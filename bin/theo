@@ -19,11 +19,11 @@ var lib = path.join(path.dirname(fs.realpathSync(__filename)), '../lib');
 
 var lib = require(lib + '/theo.js');
 
-if(process.argv.length !== 5 && process.argv[2] !== 'alias'){
+if(process.argv.length !== 5 && process.argv[2] !== 'alias_usage'){
   console.error('theo needs 3 parameters: type, srcDir, destDir');
 }else{
   var type = process.argv[2];
-  if (type !== 'alias') {
+  if (type !== 'alias_usage') {
     type = type.replace(/\s/g, '');
     if(type.split(',').length > 1){
       type = type.split(',');
@@ -67,9 +67,9 @@ if(process.argv.length !== 5 && process.argv[2] !== 'alias'){
       process.exit(1);
     }
   }
-  if (type === 'alias') {
+  if (type === 'alias_usage') {
     var source = process.argv[3];
-    lib.count_alias(source);
+    lib.alias_usage(source);
     return;
   }
 
