@@ -1,0 +1,104 @@
+{
+  "aliases": [
+    {
+      "name": "WHITE",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "CURIOUS_BLUE",
+      "value": "#2A94D6"
+    },
+    {
+      "name": "DEEP_CERULEAN",
+      "value": "#006EB3"
+    },
+    {
+      "name": "TALL_POPPY",
+      "value": "#B5362D"
+    },
+    {
+      "name": "TULIP_TREE",
+      "value": "#E6B739"
+    },
+    {
+      "name": "CALIFORNIA",
+      "value": "#FF9F05"
+    },
+    {
+      "name": "CAPE_COD",
+      "value": "#3C3D3E"
+    },
+    {
+      "name": "NEVADA",
+      "value": "#696E71"
+    },
+    {
+      "name": "PORCELAIN",
+      "value": "#F0F1F2"
+    },
+    {
+      "name": "NEW_YORK_PINK",
+      "value": "#D68184"
+    },
+    {
+      "name": "POT_POURRI",
+      "value": "#F6E4E4"
+    },
+    {
+      "name": "BLACK_TRANSPARENT_16",
+      "value": "rgba(0,0,0,.16)"
+    },
+    {
+      "name": "BLACK_TRANSPARENT_24",
+      "value": "rgba(0,0,0,.24)"
+    },
+    {
+      "name": "SLATE_GREY",
+      "value": "#657889"
+    },
+    {
+      "name": "CASPER",
+      "value": "#9FAAB5"
+    },
+    {
+      "name": "MALIBU",
+      "value": "#5EBFFC"
+    },
+    {
+      "name": "BLUE_BAYOUX",
+      "value": "#485C70"
+    },
+    {
+      "name": "REGENT_GREY",
+      "value": "#8595A6"
+    },
+    {
+      "name": "GEYSER",
+      "value": "#DADEE2"
+    },
+    {
+      "name": "DARK_GREY_ROYAL_BLUE",
+      "value": "#2A4158"
+    },
+    {
+      "name": "PALE_ROYAL_BLUE",
+      "value": "#F0F1F2"
+    },
+    {
+      "name": "GREY_ROYAL_BLUE",
+      "value": "#34495E"
+    },
+    {
+      "name": "BLACK_TRANSPARENT_07",
+      "value": "rgba(0,0,0,.07)"
+    },
+    {
+      "name": "LOCHMARA",
+      "value": "#137CBD"
+    },
+    {
+      "name": "CATSKILL_WHITE",
+      "value": "#E4ECF4"
+    }
+  ]
+}

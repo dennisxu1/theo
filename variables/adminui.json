@@ -1,0 +1,99 @@
+{
+	"theme": {
+		"extends": "one:theme",
+		"properties": [
+			{
+				"name": "COLOR_FROZEN",
+				"value": "#2cb2eb",
+				"category": "status-icon-color"
+			},
+			{
+				"name": "COLOR_LOCKED",
+				"value": "#f1b524",
+				"category": "status-icon-color"
+			},
+			{
+				"name": "COLOR_DEACTIVATED",
+				"value": "#f74e4e",
+				"category": "status-icon-color"
+			},
+			{
+				"name": "ADMIN_TEXT_COLOR_1",
+				"value": "#b4c4cc",
+				"category": "text-color"
+			},
+			{
+				"name": "ADMIN_TEXT_COLOR_2",
+				"value": "##6e7e8a",
+				"category": "text-color"
+			},
+			{
+				"name": "ADMIN_TEXT_COLOR_3",
+				"value": "#3c4c5e",
+				"category": "text-color"
+			},
+			{
+				"name": "ADMIN_GRADIENT_GLOBAL_HEADER",
+				"value": "#405b74",
+				"category": "header"
+			},
+			{
+				"name": "ADMIN_BG_1",
+				"value": "#344a5f",
+				"category": "solid-background",
+				"comment": "card"
+			},
+			{
+				"name": "ADMIN_BG_2",
+				"value": "#293f54",
+				"category": "solid-background",
+				"comment": "background"
+			},
+			{
+				"name": "ADMIN_BG_INPUT_SEARCH",
+				"value": "#293f54",
+				"category": "input-background"
+			},
+			{
+				"name": "GRADIENT_FROZEN",
+				"value": "linear-gradient(#a8e0f8,#cef0ff)",
+				"category": "status-bar-background"
+			},
+			{
+				"name": "GRADIENT_LOCKED",
+				"value": "linear-gradient(#fcda97,#f8e5c2)",
+				"category": "status-bar-background"
+			},
+			{
+				"name": "GRADIENT_DEACTIVATED",
+				"value": "linear-gradient(#fdc7c7,#fad6d6)",
+				"category": "status-bar-background"
+			},
+			{
+				"name": "ADMIN_GRADIENT_GLOBAL_HEADER_BUTTON",
+				"value": "linear-gradient(#3d5169,#2f3e52)",
+				"category": "button"
+			},
+			{
+				"name": "ADMIN_BG_GLOBAL_HEADER_BUTTON_ACTIVE",
+				"value": "#243040",
+				"category": "button"
+			},
+			{
+				"name": "ADMIN_BORDER_COLOR_1",
+				"value": "#273847",
+				"category": "border-color"
+			},
+			{
+				"name": "ADMIN_BORDER_COLOR_GLOBAL_HEADER_BUTTON",
+				"value": "#172430",
+				"category": "border-color"
+			},
+			{
+				"name": "ADMIN_HR_1",
+				"value": "#273847",
+				"category": "line"
+			}
+		]
+	}
+}

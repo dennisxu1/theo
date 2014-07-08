@@ -1,0 +1,12 @@
+{
+	"theme": {
+		"extends": "one:theme",
+		"properties": [
+			{
+				"name": "TEXT_COLOR_10",
+				"value": "#494b4e",
+				"category": "text-color"
+			}
+		]
+	}
+}

@@ -1,0 +1,120 @@
+{
+	"theme": {
+		"properties": [
+			{
+				"name": "MQ_SMALL",
+				"value": "only screen and (max-width: 35.624em)",
+				"category": "MQ"
+			},
+			{
+				"name": "MQ_MEDIUM",
+				"value": "only screen and (min-width: 35.625em)",
+				"category": "MQ"
+			},
+			{
+				"name": "MQ_LARGE",
+				"value": "only screen and (min-width : 48.063em)",
+				"category": "MQ"
+			},
+			{
+				"name": "MQ_XLARGE",
+				"value": "only screen and (min-width : 64.063em)",
+				"category": "MQ"
+			},
+			{
+				"name": "MQ_LARGER_THAN_PHONE",
+				"value": "only screen and (min-width: 428px)",
+				"category": "MQ"
+			},
+			{
+				"name": "MQ_HIGH_RES",
+				"value": "only screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-pixel-ratio: 2),screen and (min-resolution: 192dpi),screen and (min-resolution: 2dppx)",
+				"category": "MQ"
+			},
+			{
+				"name": "MQ_SINGLE_COLUMN_RECORD_LAYOUT",
+				"value": "(max-width: 599px)",
+				"comment": "Make record layout 1 col when its view port is < 600px",
+				"category": "MQ"
+			},
+			{
+				"name": "MQ_PORTRAIT_REFACTOR_THIS",
+				"value": "only screen and (orientation: portrait)",
+				"category": "MQ",
+				"comment": "From one:mdp - REFACTOR - too generic"
+			},
+			{
+				"name": "MQ_LANDSCAPE_REFACTOR_THIS",
+				"value": "only screen and (orientation: landscape)",
+				"category": "MQ"
+			},
+			{
+				"name": "MQ_TABLET_LANDSCAPE_REFACTOR_THIS",
+				"value": "only screen and (min-width: 960px)",
+				"category": "MQ",
+				"comment": "Override forceRecordLayout for landscape tablet - 3 columns"
+			},
+			{
+				"name": "MQ_TABLET_PORTRAIT_REFACTOR_THIS",
+				"value": "only screen and (min-width: 760px) and (max-width: 959px)",
+				"category": "MQ",
+				"comment": "Override forceRecordLayout for portrait tablet - 2 columns"
+			},
+			{
+				"name": "MQ_TABLET_REFACTOR_THIS",
+				"value": "only screen and (min-width: 769px)",
+				"category": "MQ"
+			},
+			{
+				"name": "MQ_TABLET_FIXED",
+				"value": "only screen and (min-width: 768px)",
+				"category": "MQ",
+				"comment": "From dashboards:dashboardLoader, added in version 4, by htsang"
+			},
+			{
+				"name": "MQ_DASHBOARD_LOADER_REFACTOR_THIS_1",
+				"value": "only screen and (min-width : 321px)",
+				"category": "MQ",
+				"comment": "Smartphones (landscape)"
+			},
+			{
+				"name": "MQ_DASHBOARD_LOADER_REFACTOR_THIS_2",
+				"value": "only screen and (max-width : 320px)",
+				"category": "MQ",
+				"comment": "Smartphones (portrait)"
+			},
+			{
+				"name": "MQ_DASHBOARD_LOADER_REFACTOR_THIS_3",
+				"value": "only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)",
+				"category": "MQ",
+				"comment": "iPads (landscape)"
+			},
+			{
+				"name": "MQ_DASHBOARD_LOADER_REFACTOR_THIS_4",
+				"value": "only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)",
+				"category": "MQ",
+				"comment": "iPads (portrait)"
+			},
+			{
+				"name": "MQ_SELF_SERVICE_PHONE",
+				"value": "only screen and (max-width: 480px)",
+				"category": "MQ"
+			},
+			{
+				"name": "MQ_SELF_SERVICE_TABLET",
+				"value": "only screen and (max-width: 800px)",
+				"category": "MQ"
+			},
+			{
+				"name": "MQ_SELF_SERVICE_TABLET_PORTRAIT",
+				"value": "only screen and (max-width: 800px) and (min-width: 480px) and (orientation: portrait)",
+				"category": "MQ"
+			},
+			{
+				"name": "MQ_SELF_SERVICE_WTF",
+				"value": "only screen and (max-width: 520px)",
+				"category": "MQ"
+			}
+		]
+	}
+}

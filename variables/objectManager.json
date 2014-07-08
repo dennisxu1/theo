@@ -1,0 +1,51 @@
+{
+	"theme": {
+		"properties":	[
+			{
+				"name": "BASE_BG_COLOR",
+				"value": "#CDCDCD",
+				"category": "background-color"
+			},
+			{
+				"name": "HEADER_BG_COLOR",
+				"value": "#EFF2F2",
+				"category": "background-color"
+			},
+			{
+				"name": "HEADER_TEXT_COLOR",
+				"value": "#DDD",
+				"category": "text-color"
+			},
+			{
+				"name": "LIST_BG_COLOR",
+				"value": "#ECEDF0",
+				"category": "background-color"
+			},
+			{
+				"name": "LIST_HEADER_BG_COLOR",
+				"value": "#E6EBEA",
+				"category": "background-color"
+			},
+			{
+				"name": "LIST_HEADER_TEXT_COLOR",
+				"value": "#666",
+				"category": "text-color"
+			},
+			{
+				"name": "SEARCH_BORDER_COLOR",
+				"value": "#2E95BB",
+				"category": "border-color"
+			},
+			{
+				"name": "LIST_SEPERATOR_COLOR",
+				"value": "#E7E7E7",
+				"category": "color"
+			},
+			{
+				"name": "BODY_PADDING",
+				"value": "10px 30px 10px 30px",
+				"category": "padding"
+			}
+		]
+	}
+}

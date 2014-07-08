@@ -1,0 +1,42 @@
+{
+	"theme": {
+		"extends": "one:theme",
+		"properties": [
+			{
+				"name": "S1_WIZARD_BANNER_HEIGHT",
+				"value": "44px",
+				"category": "banner-height"
+			},
+			{
+				"name": "S1_WIZARD_HEADER_HEIGHT",
+				"value": "96px",
+				"category": "banner-height"
+			},
+			{
+				"name": "S1_WIZARD_FIXED_HEADER_HEIGHT",
+				"value": "140px",
+				"category": "header-height"
+			},
+			{
+				"name": "S1_WIZARD_FOOTER_HEIGHT",
+				"value": "80px",
+				"category": "footer-height"
+			},
+			{
+				"name": "S1_WIZARD_TEXT_LARGE_HEADER",
+				"value": "30px",
+				"category": "header"
+			},
+			{
+				"name": "S1_WIZARD_TEXT_HEADER",
+				"value": "24px",
+				"category": "header"
+			},
+			{
+				"name": "S1_WIZARD_LINE_HEIGHT_EXTRA_LARGE",
+				"value": "21px",
+				"category": "line-height"
+			}
+		]
+	}
+}

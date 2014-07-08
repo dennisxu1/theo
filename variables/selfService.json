@@ -1,0 +1,401 @@
+{
+	"theme": {
+		"extends": "one:theme",
+		"properties": [
+			{
+				"name": "TEXT_COLOR_1",
+				"value": "#333",
+				"category": "text-color",
+				"comment": "black"
+			},
+			{
+				"name": "TEXT_COLOR_2",
+				"value": "#FFF",
+				"category": "text-color",
+				"comment": "white"
+			},
+			{
+				"name": "TEXT_COLOR_3",
+				"value": "#abb2b7",
+				"category": "text-color",
+				"comment": "grey"
+			},
+			{
+				"name": "TEXT_COLOR_4",
+				"value": "#3e93ca",
+				"category": "text-color",
+				"comment": "links"
+			},
+			{
+				"name": "TEXT_COLOR_5",
+				"value": "#999",
+				"category": "text-color",
+				"comment": "dark grey"
+			},
+			{
+				"name": "TEXT_COLOR_6",
+				"value": "#6c7780",
+				"category": "text-color"
+			},
+			{
+				"name": "FONT_FAMILY",
+				"value": "'Open Sans',sans-serif",
+				"category": "font"
+			},
+			{
+				"name": "TEXT_SECTION_HEADER",
+				"value": "1.75em",
+				"category": "text-size"
+			},
+			{
+				"name": "TEXT_LARGEST",
+				"value": "1.25em",
+				"category": "text-size"
+			},
+			{
+				"name": "TEXT_LARGE",
+				"value": "1.2em",
+				"category": "text-size"
+			},
+			{
+				"name": "TEXT_SEMILARGE",
+				"value": "1.125em",
+				"category": "text-size"
+			},
+			{
+				"name": "TEXT_DEFAULT",
+				"value": "1em",
+				"category": "text-size"
+			},
+			{
+				"name": "TEXT_SMALL",
+				"value": ".875em",
+				"category": "text-size"
+			},
+			{
+				"name": "TEXT_SMALLEST",
+				"value": ".8125em",
+				"category": "text-size"
+			},
+			{
+				"name": "ICON_SMALL",
+				"value": "0.5em",
+				"category": "text-size"
+			},
+			{
+				"name": "ICON_LARGE",
+				"value": "0.7em",
+				"category": "text-size"
+			},
+			{
+				"name": "MOBILE_TEXT_LARGEST",
+				"value": "1.125em",
+				"category": "text-size"
+			},
+			{
+				"name": "MOBILE_TEXT_SEMILARGE",
+				"value": "1em",
+				"category": "text-size"
+			},
+			{
+				"name": "MOBILE_TEXT_DEFAULT",
+				"value": ".9em",
+				"category": "text-size"
+			},
+			{
+				"name": "MOBILE_TEXT_SMALL",
+				"value": ".875em",
+				"category": "text-size",
+				"comment": "why is this the same size? articleListItem.css"
+			},
+			{
+				"name": "MOBILE_TEXT_LARGE",
+				"value": "1.2em",
+				"category": "text-size"
+			},
+			{
+				"name": "MOBILE_TEXT_SMALLEST",
+				"value": ".813em",
+				"category": "text-size"
+			},
+			{
+				"name": "BG_1",
+				"value": "#fff",
+				"category": "solid-background",
+				"comment": "default"
+			},
+			{
+				"name": "BG_2",
+				"value": "#999",
+				"category": "solid-background"
+			},
+			{
+				"name": "BG_3",
+				"value": "#7FABC4",
+				"category": "solid-background",
+				"comment": "background for placeholder when no dc images"
+			},
+			{
+				"name": "BG_4",
+				"value": "#f1f1f1",
+				"category": "solid-background"
+			},
+			{
+				"name": "BG_5",
+				"value": "#f9f9f9",
+				"category": "solid-background"
+			},
+			{
+				"name": "BG_6",
+				"value": "#f6f6f6",
+				"category": "solid-background"
+			},
+			{
+				"name": "BG_7",
+				"value": "#206ca6",
+				"category": "solid-background"
+			},
+			{
+				"name": "BG_8",
+				"value": "#33495f",
+				"category": "solid-background"
+			},
+			{
+				"name": "BG_9",
+				"value": "#344a5f",
+				"category": "solid-background"
+			},
+			{
+				"name": "BG_10",
+				"value": "transparent",
+				"category": "solid-background"
+			},
+			{
+				"name": "BG_11",
+				"value": "#222",
+				"category": "solid-background"
+			},
+			{
+				"name": "BG_12",
+				"value": "#333",
+				"category": "solid-background"
+			},
+			{
+				"name": "BG_13",
+				"value": "#e95656",
+				"category": "solid-background"
+			},
+			{
+				"name": "BG_14",
+				"value": "#4ab471",
+				"category": "solid-background"
+			},
+			{
+				"name": "BG_15",
+				"value": "#000",
+				"category": "solid-background"
+			},
+			{
+				"name": "BUTTON_BG_1",
+				"value": "#4ab471",
+				"category": "button-background"
+			},
+			{
+				"name": "BUTTON_BG_2",
+				"value": "#3f9960",
+				"category": "button-background"
+			},
+			{
+				"name": "BUTTON_BG_3",
+				"value": "#348050",
+				"category": "button-background"
+			},
+			{
+				"name": "BUTTON_BG_4",
+				"value": "#6ec38d",
+				"category": "button-background"
+			},
+			{
+				"name": "BUTTON_BG_5",
+				"value": "#b3c9d6",
+				"category": "button-background"
+			},
+			{
+				"name": "BUTTON_BG_6",
+				"value": "#91afc1",
+				"category": "button-background"
+			},
+			{
+				"name": "BUTTON_BG_7",
+				"value": "#7e98a8",
+				"category": "button-background"
+			},
+			{
+				"name": "BORDER_COLOR_1",
+				"value": "#efefef",
+				"category": "border-color"
+			},
+			{
+				"name": "BORDER_COLOR_2",
+				"value": "#ccc",
+				"category": "border-color"
+			},
+			{
+				"name": "BORDER_COLOR_3",
+				"value": "#196dc3",
+				"category": "border-color"
+			},
+			{
+				"name": "BORDER_COLOR_4",
+				"value": "#bebebe",
+				"category": "border-color"
+			},
+			{
+				"name": "BORDER_COLOR_5",
+				"value": "#427ae2",
+				"category": "border-color"
+			},
+			{
+				"name": "BORDER_COLOR_6",
+				"value": "#174b73",
+				"category": "border-color"
+			},
+			{
+				"name": "BORDER_COLOR_7",
+				"value": "#0a2234",
+				"category": "border-color"
+			},
+			{
+				"name": "BORDER_COLOR_8",
+				"value": "#cfcfcf",
+				"category": "border-color"
+			},
+			{
+				"name": "BORDER_COLOR_9",
+				"value": "transparent",
+				"category": "border-color"
+			},
+			{
+				"name": "BORDER_COLOR_10",
+				"value": "#e8edee",
+				"category": "border-color"
+			},
+			{
+				"name": "BORDER_COLOR_11",
+				"value": "#000",
+				"category": "border-color"
+			},
+			{
+				"name": "BORDER_COLOR_12",
+				"value": "#333",
+				"category": "border-color"
+			},
+			{
+				"name": "BORDER_COLOR_13",
+				"value": "#c2cacf",
+				"category": "border-color"
+			},
+			{
+				"name": "BORDER_COLOR_14",
+				"value": "#666",
+				"category": "border-color"
+			},
+			{
+				"name": "BORDER_RADIUS_LARGE",
+				"value": "8px",
+				"category": "border-radius"
+			},
+			{
+				"name": "BORDER_RADIUS_DEFAULT",
+				"value": "5px",
+				"category": "border-radius"
+			},
+			{
+				"name": "BORDER_RADIUS_SMALL",
+				"value": "3px",
+				"category": "border-radius"
+			},
+			{
+				"name": "DROP_SHADOW_1",
+				"value": "0 1px 3px rgba(0,0,0,.2)",
+				"category": "drop-shadow",
+				"comment": "drop shadow global elements"
+			},
+			{
+				"name": "HR_1",
+				"value": "#eceef0",
+				"category": "line"
+			},
+			{
+				"name": "HR_2",
+				"value": "#cfd4d9",
+				"category": "line"
+			},
+			{
+				"name": "HR_3",
+				"value": "#293f54",
+				"category": "line"
+			},
+			{
+				"name": "HR_4",
+				"value": "#203345",
+				"category": "line"
+			},
+			{
+				"name": "SPACING_EXTRA_LARGE",
+				"value": "28px",
+				"category": "spacing"
+			},
+			{
+				"name": "SPACING_LARGE",
+				"value": "18px",
+				"category": "spacing"
+			},
+			{
+				"name": "SPACING_MEDIUM",
+				"value": "14px",
+				"category": "spacing"
+			},
+			{
+				"name": "SPACING_SMALL",
+				"value": "8px",
+				"category": "spacing"
+			},
+			{
+				"name": "SPACING_SMALLEST",
+				"value": "7px",
+				"category": "spacing"
+			},
+			{
+				"name": "SPACING_TINY",
+				"value": "2px",
+				"category": "spacing"
+			},
+			{
+				"name": "LINE_HEIGHT_LARGE",
+				"value": "1.5em",
+				"category": "line-height"
+			},
+			{
+				"name": "LINE_HEIGHT_MEDIUM",
+				"value": "1.3em",
+				"category": "line-height"
+			},
+			{
+				"name": "LINE_HEIGHT_SMALL",
+				"value": "1.1em",
+				"category": "line-height"
+			},
+			{
+				"name": "BOLD",
+				"value": "700",
+				"category": "bold-weight"
+			},
+			{
+				"name": "SEMIBOLD",
+				"value": "600",
+				"category": "bold-weight"
+			}
+		]
+	}
+}

@@ -1,0 +1,499 @@
+{
+  "theme": {
+    "name": "S1 base",
+    "imports": ["one:mqCommons", "one:fontCommons"],
+    "aliases": "_aliases.json",
+    "properties": [
+      {
+        "name":"DURATION_SLIDE",
+        "value":"0.25s",
+        "category": "misc",
+        "comment": "NOTE: This is also in oneHelper.js for JavaScript, if you change this, change that."
+      },
+      {
+        "name": "WIDTH_STAGE_LEFT",
+        "value": "88%",
+        "category": "misc",
+        "comment": "Stage left small form factor. NOTE: This is also in oneHelper.js for JavaScript, if you change this, change that."
+      },
+      {
+        "name":"WIDTH_STAGE_LEFT_TABLET",
+        "value":"250px",
+        "category": "misc",
+        "comment": "Stage left medium form factor. NOTE: This is also in oneHelper.js for JavaScript, if you change this, change that."
+      },
+      {
+        "name":"HEIGHT_HEADER",
+        "value":"42px",
+        "category": "misc",
+        "comment": "Brand header"
+      },
+      {
+        "name":"HEIGHT_FOOTER",
+        "value":"44px",
+        "category": "misc",
+        "comment": "Action footer menu"
+      },
+      {
+        "name":"MAX_HEIGHT_CARD_MEDIA",
+        "value":"144px",
+        "category": "misc",
+        "comment": "Maximum height for photos and such in cards."
+      },
+      {
+        "name":"COLOR_BRAND",
+        "value":"{!CURIOUS_BLUE}",
+        "category": "background-color",
+        "comment": "brandable header"
+      },
+      {
+        "name":"COLOR_TEXT_LINK",
+        "value":"{!DEEP_CERULEAN}",
+        "category": "text-color",
+        "comment": "Accessible link color"
+      },
+      {
+        "name":"COLOR_TEXT_LINK_HOVER",
+        "value":"{!DEEP_CERULEAN}",
+        "category": "text-color"
+      },
+      {
+        "name":"COLOR_TEXT_LINK_ACTIVE",
+        "value":"{!DEEP_CERULEAN}",
+        "category": "text-color"
+      },
+      {
+        "name":"COLOR_TEXT_LINK_HOVER",
+        "value":"{!DEEP_CERULEAN}",
+        "category": "text-color"
+      },
+      {
+        "name":"COLOR_TEXT_LINK_DISABLED",
+        "value":"{!SLATE_GREY}",
+        "category": "text-color"
+      },
+      {
+        "name":"COLOR_ERROR",
+        "value":"{!TALL_POPPY}",
+        "category": "background-color"
+      },
+      {
+        "name":"COLOR_TEXT_ERROR",
+        "value":"{!TALL_POPPY}",
+        "category": "text-color"
+      },
+      {
+        "name":"COLOR_WARNING",
+        "value":"{!TULIP_TREE}",
+        "category": "background-color",
+        "comment": "Alert icon"
+      },
+      {
+        "name":"COLOR_CUSTOMER",
+        "value":"{!CALIFORNIA}",
+        "category": "background-color"
+      },
+      {
+        "name": "COLOR_BORDER_SELECTION",
+        "value":"{!DEEP_CERULEAN}",
+        "category": "border-color"
+      },
+      {
+        "name": "COLOR_BORDER_SELECTION_HOVER",
+        "value":"{!CURIOUS_BLUE}",
+        "category": "border-color"
+      },
+      {
+        "name": "COLOR_BORDER_SELECTION_ACTIVE",
+        "value":"{!PALE_ROYAL_BLUE}",
+        "category": "border-color"
+      },
+      {
+        "name":"COLOR_TEXT_DEFAULT",
+        "value":"{!CAPE_COD}",
+        "category": "text-color",
+        "comment": "main body copy"
+      },
+      {
+        "name":"COLOR_TEXT_WEAK",
+        "value":"{!NEVADA}",
+        "category": "text-color"
+      },
+      {
+        "name":"COLOR_TEXT_HINT",
+        "value":"{!CASPER}",
+        "category": "text-color"
+      },
+      {
+        "name":"COLOR_TEXT_ALT",
+        "value":"{!BLUE_BAYOUX}",
+        "category": "text-color"
+      },
+      {
+        "name":"COLOR_TEXT_INVERSE",
+        "value":"{!WHITE}",
+        "category": "text-color",
+        "comment": "Inverse for inverse backgrounds"
+      },
+      {
+        "name":"COLOR_TEXT_INVERSE_HOVER",
+        "value":"{!CASPER}",
+        "category": "text-color"
+      },
+      {
+        "name":"COLOR_TEXT_INVERSE_ACTIVE",
+        "value":"{!MALIBU}",
+        "category": "text-color"
+      },
+      {
+        "name": "COLOR_TEXT_SELECTION_HOVER",
+        "value": "{!CURIOUS_BLUE}",
+        "category": "text-color"
+      },
+      {
+        "name":"COLOR_TEXT_PLACEHOLDER",
+        "value":"{!REGENT_GREY}",
+        "category": "text-color"
+      },
+      {
+        "name":"COLOR_TEXT_PLACEHOLDER_INVERSE",
+        "value":"{!GEYSER}",
+        "category": "text-color"
+      },
+      {
+        "name":"COLOR_TEXT_LABEL",
+        "value":"{!SLATE_GREY}",
+        "category": "text-color"
+      },
+      {
+        "name":"COLOR_TEXT_HEADING_WEAK",
+        "value":"{!DEEP_CERULEAN}",
+        "category": "text-color"
+      },
+      {
+        "name":"COLOR_TEXT_INPUT_FOCUS_INVERSE",
+        "value":"{!DARK_GREY_ROYAL_BLUE}",
+        "category": "text-color"
+      },
+      {
+        "name":"FONT_FAMILY_STRONG_DEPRECATED",
+        "value":"'ProximaNovaSoft-Semibold'",
+        "category": "font"
+      },
+      {
+        "name":"FONT_FAMILY_STRONG",
+        "value":"'ProximaNovaSoft-Semibold'",
+        "category": "font"
+      },
+      {
+        "name":"FONT_FAMILY_HEADING_DEPRECATED",
+        "value":"'ProximaNovaSoft-Semibold'",
+        "category": "font"
+      },
+      {
+        "name":"FONT_FAMILY_BODY",
+        "value":"'ProximaNovaSoft-Regular'",
+        "category": "font"
+      },
+
+      {
+        "name":"FONT_SIZE_XX_LARGE",
+        "value":"22px",
+        "category": "font-size"
+      },
+      {
+        "name":"FONT_SIZE_X_LARGE",
+        "value":"18px",
+        "category": "font-size"
+      },
+      {
+        "name":"FONT_SIZE_LARGE",
+        "value":"16px",
+        "category": "font-size"
+      },
+      {
+        "name":"FONT_SIZE_MEDIUM",
+        "value":"15px",
+        "category": "font-size"
+      },
+      {
+        "name":"FONT_SIZE_SMALL",
+        "value":"14px",
+        "category": "font-size"
+      },
+      {
+        "name":"FONT_SIZE_X_SMALL",
+        "value":"13px",
+        "category": "font-size"
+      },
+      {
+        "name":"FONT_SIZE_XX_SMALL",
+        "value":"10px",
+        "category": "font-size"
+      },
+      {
+        "name":"COLOR_BACKGROUND",
+        "value":"{!PALE_ROYAL_BLUE}",
+        "category": "background-color",
+        "comment": "main app background"
+      },
+      {
+        "name":"COLOR_BACKGROUND_SHADE",
+        "value":"{!CATSKILL_WHITE}",
+        "category": "background-color",
+        "comment": "darker background for visual app builder"
+      },
+      {
+        "name":"COLOR_BACKGROUND_ALT",
+        "value":"{!WHITE}",
+        "category": "background-color",
+        "comment": "Global use, card bgd, lists"
+      },
+      {
+        "name":"COLOR_BACKGROUND_ACTIVE_INVERSE",
+        "value":"{!PORCELAIN}",
+        "category": "background-color",
+        "comment": "*"
+      },
+      {
+        "name":"COLOR_BACKGROUND_INVERSE",
+        "value":"{!GREY_ROYAL_BLUE}",
+        "category": "background-color"
+      },
+      {
+        "name":"COLOR_BACKGROUND_ALT_INVERSE",
+        "value":"{!DARK_GREY_ROYAL_BLUE}",
+        "category": "background-color"
+      },
+      {
+        "name":"COLOR_BACKGROUND_ALT_INVERSE_DEPRECATED",
+        "value":"{!GREY_ROYAL_BLUE}",
+        "category": "background-color"
+      },
+      {
+        "name":"COLOR_BACKGROUND_INPUT_DEPRECATED",
+        "value":"{!GEYSER}",
+        "category": "background-color"
+      },
+      {
+        "name":"COLOR_BACKGROUND_ERROR_ALT",
+        "value":"{!NEW_YORK_PINK}",
+        "category": "background-color"
+      },
+      {
+        "name":"COLOR_BACKGROUND_INPUT",
+        "value":"{!WHITE}",
+        "category": "background-color"
+      },
+      {
+        "name":"COLOR_BACKGROUND_INPUT_DISABLED",
+        "value":"{!GEYSER}",
+        "category": "background-color"
+      },
+      {
+        "name":"COLOR_BACKGROUND_INPUT_ACTIVE",
+        "value":"{!WHITE}",
+        "category": "background-color",
+        "comment": "Focused input fields."
+      },
+      {
+        "name":"COLOR_BACKGROUND_INPUT_ERROR",
+        "value":"{!POT_POURRI}",
+        "category": "background-color",
+        "comment": "COLOR_INPUT_ERROR_BGD, Errored input backgrounds"
+      },
+      {
+        "name":"COLOR_BACKGROUND_INPUT_SEARCH",
+        "value":"{!BLACK_TRANSPARENT_16}",
+        "category": "background-color"
+      },
+      {
+        "name":"COLOR_BACKGROUND_ANCHOR",
+        "value":"{!GREY_ROYAL_BLUE}",
+        "category": "background-color"
+      },
+      {
+        "name":"COLOR_BACKGROUND_BUTTON_INVERSE",
+        "value":"{!BLACK_TRANSPARENT_16}",
+        "category": "background-color",
+        "comment": "Button backgrounds on inverse backgrounds"
+      },
+      {
+        "name":"COLOR_BACKGROUND_BUTTON_INVERSE_ACTIVE",
+        "value":"{!BLACK_TRANSPARENT_24}",
+        "category": "background-color",
+        "comment": "Active button backgrounds on inverse backgrounds"
+      },
+      {
+        "name":"COLOR_BACKGROUND_MODAL",
+        "value":"{!WHITE}",
+        "category": "background-color",
+        "comment": "Modal header"
+      },
+      {
+        "name":"COLOR_TEXT_MODAL",
+        "value":"{!NEVADA}",
+        "category": "text-color",
+        "comment": "modal header title"
+      },
+      {
+        "name":"COLOR_BACKGROUND_MODAL_BUTTON",
+        "value":"{!BLACK_TRANSPARENT_07}",
+        "category": "background-color",
+        "comment": "Button backgrounds on modal headers"
+      },
+      {
+        "name":"COLOR_BACKGROUND_MODAL_BUTTON_ACTIVE",
+        "value":"{!BLACK_TRANSPARENT_16}",
+        "category": "background-color",
+        "comment": "Active button backgrounds on modal headers"
+      },
+      {
+        "name":"COLOR_TEXT_MODAL_BUTTON",
+        "value":"{!NEVADA}",
+        "category": "text-color",
+        "comment": "modal header button text color"
+      },
+      {
+        "name":"COLOR_BACKGROUND_BROWSER",
+        "value":"{!SLATE_GREY}",
+        "category": "background-color"
+      },
+      {
+        "name":"COLOR_BACKGROUND_BUTTON_BRAND",
+        "value":"{!CURIOUS_BLUE}",
+        "category": "background-color",
+        "comment": "brandable button"
+      },
+      {
+        "name":"COLOR_BACKGROUND_BUTTON_BRAND_HOVER",
+        "value":"{!LOCHMARA}",
+        "category": "background-color"
+      },
+      {
+        "name":"COLOR_BACKGROUND_BUTTON_BRAND_ACTIVE",
+        "value":"{!LOCHMARA}",
+        "category": "background-color"
+      },
+      {
+        "name":"COLOR_TEXT_BROWSER",
+        "value":"{!WHITE}",
+        "category": "text-color",
+        "comment": "icon font color for in-app browser"
+      },
+      {
+        "name":"COLOR_BACKGROUND_BROWSER_ACTIVE",
+        "value":"{!PORCELAIN}",
+        "category": "background-color"
+      },
+      {
+        "name":"COLOR_BORDER_BRAND",
+        "value":"{!LOCHMARA}",
+        "category": "border-color"
+      },
+      {
+        "name":"COLOR_BORDER_BUTTON_BROWSER",
+        "value":"{!GEYSER}",
+        "category": "border-color"
+      },
+      {
+        "name":"COLOR_BORDER",
+        "value":"{!PORCELAIN}",
+        "category": "border-color"
+      },
+      {
+        "name":"COLOR_BORDER_HINT",
+        "value":"{!CAPE_COD}",
+        "category": "border-color"
+      },
+      {
+        "name":"BORDER_RADIUS_LARGE",
+        "value":"8px",
+        "category": "radius"
+      },
+      {
+        "name":"BORDER_RADIUS_MEDIUM",
+        "value":"5px",
+        "category": "radius"
+      },
+      {
+        "name":"BORDER_RADIUS_SMALL",
+        "value":"3px",
+        "category": "radius"
+      },
+      {
+        "name":"COLOR_BORDER_SEPARATOR",
+        "value":"{!PALE_ROYAL_BLUE}",
+        "category": "hr-color"
+      },
+      {
+        "name":"COLOR_BORDER_SEPARATOR_ALT",
+        "value":"{!GEYSER}",
+        "category": "hr-color",
+        "comment": "*"
+      },
+      {
+        "name":"COLOR_BORDER_SEPARATOR_INVERSE",
+        "value":"{!DARK_GREY_ROYAL_BLUE}",
+        "category": "hr-color"
+      },
+      {
+        "name":"COLOR_BORDER_SEPARATOR_INVERSE_ALT",
+        "value":"{!GREY_ROYAL_BLUE}",
+        "category": "hr-color"
+      },
+      {
+        "name":"BORDER_WIDTH_THIN",
+        "value":"1px",
+        "category": "spacing"
+      },
+      {
+        "name":"BORDER_WIDTH_THICK",
+        "value":"2px",
+        "category": "spacing"
+      },
+      {
+        "name":"SPACING_X_LARGE",
+        "value":"28px",
+        "category": "spacing"
+      },
+      {
+        "name":"SPACING_LARGE",
+        "value":"18px",
+        "category": "spacing"
+      },
+      {
+        "name":"SPACING_MEDIUM",
+        "value":"14px",
+        "category": "spacing"
+      },
+      {
+        "name":"SPACING_SMALL",
+        "value":"8px",
+        "category": "spacing"
+      },
+      {
+        "name":"SPACING_X_SMALL",
+        "value":"7px",
+        "category": "spacing"
+      },
+      {
+        "name":"SPACING_XX_SMALL",
+        "value":"2px",
+        "category": "spacing"
+      },
+      {
+        "name":"LINE_HEIGHT_HEADING",
+        "value":"1.25",
+        "category": "line-height",
+        "comment": "Unitless line-heights for reusabliity."
+      },
+      {
+        "name":"LINE_HEIGHT_TEXT",
+        "value":"1.5",
+        "category": "line-height",
+        "comment": "Unitless line-heights for reusabliity."
+      }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+	"theme": {
+		"imports": ["one:mqCommons"],
+		"properties": [
+			{
+				"name": "FC_TEXT_COLOR_1",
+				"value": "#333",
+				"category": "text-color"
+			},
+			{
+				"name": "FC_TEXT_COLOR_2",
+				"value": "#9B9B9B",
+				"category": "text-color"
+			},
+			{
+				"name": "FC_TEXT_COLOR_3",
+				"value": "#abb2b7",
+				"category": "text-color"
+			},
+			{
+				"name": "FC_TEXT_COLOR_4",
+				"value": "#999",
+				"category": "text-color"
+			},
+			{
+				"name": "FC_TEXT_COLOR_5",
+				"value": "#33A8DC",
+				"category": "text-color"
+			},
+			{
+				"name": "FC_TEXT_COLOR_6",
+				"value": "#afb5b9",
+				"category": "text-color"
+			},
+			{
+				"name": "FC_TEXT_COLOR_7",
+				"value": "#F0F7FA",
+				"category": "text-color"
+			},
+			{
+				"name": "FC_TEXT_COLOR_8",
+				"value": "#afb5b9",
+				"category": "text-color"
+			},
+			{
+				"name": "FC_TEXT_SMALL",
+				"value": ".875em",
+				"category": "text-size"
+			},
+			{
+				"name": "FC_TEXT_SMALLEST",
+				"value": ".8125em",
+				"category": "text-size"
+			},
+			{
+				"name": "FC_TEXT_LARGEST",
+				"value": "1.25em",
+				"category": "text-size"
+			},
+			{
+				"name": "FC_TEXT_DEFAULT",
+				"value": "1em",
+				"category": "text-size"
+			},
+			{
+				"name": "FC_BORDER_COLOR_2",
+				"value": "#ccc",
+				"category": "border-color"
+			},
+			{
+				"name": "FC_BORDER_COLOR_3",
+				"value": "#979797",
+				"category": "border-color"
+			},
+			{
+				"name": "FC_BORDER_COLOR_4",
+				"value": "#DFE0E1",
+				"category": "border-color"
+			},
+			{
+				"name": "FC_BORDER_COLOR_15",
+				"value": "#e8edee",
+				"category": "border-color"
+			},
+			{
+				"name": "FC_BG_1",
+				"value": "#fff",
+				"category": "solid-background"
+			},
+			{
+				"name": "FC_BG_2",
+				"value": "#f1f1f1",
+				"category": "solid-background"
+			},
+			{
+				"name": "FC_BG_3",
+				"value": "#f9fafb",
+				"category": "solid-background"
+			},
+			{
+				"name": "FC_BG_4",
+				"value": "#f0f7fb",
+				"category": "solid-background"
+			},
+			{
+				"name": "FC_BG_5",
+				"value": "#f9f9f9",
+				"category": "solid-background"
+			},
+			{
+				"name": "FC_BOLD",
+				"value": "700",
+				"category": "bold-weight"
+			}
+		]
+	}
+}
